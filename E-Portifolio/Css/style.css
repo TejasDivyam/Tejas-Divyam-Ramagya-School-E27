@@ -1,0 +1,171 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: url('C:/Users/conta/OneDrive/Desktop/E-Portifolio/img/Background.jpg');
+	color: white;
+}
+
+.Navigation_bar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position:sticky;
+	top: 0px;
+	cursor: pointer;
+}
+
+.Image{
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Image img{
+	width: 30%;
+	border: 5px solid Orange;
+	border-radius: 20%;
+}
+
+.list{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.list li {
+	list-style: none;
+	padding: 30px 40px;
+}
+
+.list li a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.Navigation_bar_Background {
+	background: rgba(0, 0, 0, 0.5) ;
+	background-size: cover;
+	background-blend-mode: darken;
+}
+
+
+.box1{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	max-width:45%;
+	margin:auto;
+	height:70%;
+	color:white;
+	font-family:Comic Sans MS;
+}
+
+.first_half_section_content{
+	width: 74%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 65vh;
+
+}
+
+.second_half_section_content{
+	width: 20%
+}
+
+.second_half_section_content img {
+	width: 80%;
+	border: 3px solid Orange;
+	border-radius: 50% ;
+	display: block;
+	margin: auto;
+}
+
+.big{
+	font-size: 42px;
+}
+
+.small{
+	font-size:20px;
+}
+
+.button{
+	padding: 8px 20px;
+	margin: 6px 0px;
+	border:2px solid blue;
+	border-radius:15px;
+	font-size: 17px;
+	background:none;
+	color:white;
+	cursor:pointer;
+}
+
+.Section2{
+	display:flex;
+	flex-direction: row-reverse;
+	justify-content:space-evenly;
+	align-items: center;
+	max-width: 80%;
+	margin: auto;
+}
+
+.icon_2 img{
+		width: 45%;
+    border: 3px solid Orange;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.About_ME_Div{
+	display: flex;
+	flex-direction: column;
+	padding:75px;
+}
+
+.big_2{
+	font-size: 42px;
+}
+
+.small_2{
+	font-size:20px;
+}
+
+.icon_3 img{
+		width: 45%;
+    border: 3px solid Orange;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.About_ME_Div{
+	display: flex;
+	flex-direction: column;
+	padding:75px;
+}
+
+.big_3{
+	font-size: 42px;
+}
+
+.small_3{
+	font-size:20px;
+}
+
+.Section3{
+	display:flex;
+	justify-content:space-evenly;
+	align-items: center;
+	max-width: 80%;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
